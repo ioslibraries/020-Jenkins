@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3556FF1A15BFDB9200488F31 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3556FF1915BFDB9200488F31 /* UIKit.framework */; };
+		3556FF1C15BFDB9200488F31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3556FF1B15BFDB9200488F31 /* Foundation.framework */; };
+		3556FF1E15BFDB9200488F31 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3556FF1D15BFDB9200488F31 /* CoreGraphics.framework */; };
+		3556FF2415BFDB9200488F31 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3556FF2215BFDB9200488F31 /* InfoPlist.strings */; };
+		3556FF2615BFDB9200488F31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3556FF2515BFDB9200488F31 /* main.m */; };
+		3556FF2A15BFDB9200488F31 /* ILAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3556FF2915BFDB9200488F31 /* ILAppDelegate.m */; };
+		3556FF2D15BFDB9200488F31 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3556FF2B15BFDB9200488F31 /* MainStoryboard.storyboard */; };
+		3556FF3015BFDB9200488F31 /* ILViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3556FF2F15BFDB9200488F31 /* ILViewController.m */; };
+		3556FF8515BFE01A00488F31 /* ILViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3556FF2F15BFDB9200488F31 /* ILViewController.m */; };
+		3556FF8715BFE01A00488F31 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3556FF1915BFDB9200488F31 /* UIKit.framework */; };
+		3556FF8815BFE01A00488F31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3556FF1B15BFDB9200488F31 /* Foundation.framework */; };
+		3556FF8915BFE01A00488F31 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3556FF1D15BFDB9200488F31 /* CoreGraphics.framework */; };
+		3556FF8A15BFE01A00488F31 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69029256B80641DCA25FD2A0 /* libPods.a */; };
+		3556FF8C15BFE01A00488F31 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3556FF2215BFDB9200488F31 /* InfoPlist.strings */; };
+		3556FF8D15BFE01A00488F31 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3556FF2B15BFDB9200488F31 /* MainStoryboard.storyboard */; };
+		35F6C96C15BFE08F00B940C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3556FF6E15BFDF3100488F31 /* main.m */; };
+		35F6C96F15BFE0C900B940C0 /* ILSampleTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F6C96E15BFE0C900B940C0 /* ILSampleTestCase.m */; };
+		385A800C54344E2FAE89426A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69029256B80641DCA25FD2A0 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3556FF1515BFDB9200488F31 /* GHUnitScreencast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHUnitScreencast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3556FF1915BFDB9200488F31 /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3556FF1B15BFDB9200488F31 /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3556FF1D15BFDB9200488F31 /* CoreGraphics.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3556FF2115BFDB9200488F31 /* GHUnitScreencast-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GHUnitScreencast-Info.plist"; sourceTree = "<group>"; };
+		3556FF2315BFDB9200488F31 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3556FF2515BFDB9200488F31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3556FF2715BFDB9200488F31 /* GHUnitScreencast-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GHUnitScreencast-Prefix.pch"; sourceTree = "<group>"; };
+		3556FF2815BFDB9200488F31 /* ILAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ILAppDelegate.h; sourceTree = "<group>"; };
+		3556FF2915BFDB9200488F31 /* ILAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ILAppDelegate.m; sourceTree = "<group>"; };
+		3556FF2C15BFDB9200488F31 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		3556FF2E15BFDB9200488F31 /* ILViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ILViewController.h; sourceTree = "<group>"; };
+		3556FF2F15BFDB9200488F31 /* ILViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ILViewController.m; sourceTree = "<group>"; };
+		3556FF5615BFDE5200488F31 /* GHUnitScreencast copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GHUnitScreencast copy-Info.plist"; path = "/Volumes/DATA/job/iOSLibs/episodes/019/project/GHUnitScreencast/GHUnitScreencast copy-Info.plist"; sourceTree = "<absolute>"; };
+		3556FF6A15BFDF3100488F31 /* UnitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
+		3556FF6C15BFDF3100488F31 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3556FF6E15BFDF3100488F31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3556FF7015BFDF3100488F31 /* UnitTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UnitTests-Prefix.pch"; sourceTree = "<group>"; };
+		3556FF9215BFE01A00488F31 /* GHUnitScreencast copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GHUnitScreencast copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3556FF9415BFE01A00488F31 /* GHUnitScreencast copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GHUnitScreencast copy-Info.plist"; path = "/Volumes/DATA/job/iOSLibs/episodes/019/project/GHUnitScreencast/GHUnitScreencast copy-Info.plist"; sourceTree = "<absolute>"; };
+		35F6C96D15BFE0C900B940C0 /* ILSampleTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILSampleTestCase.h; sourceTree = "<group>"; };
+		35F6C96E15BFE0C900B940C0 /* ILSampleTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILSampleTestCase.m; sourceTree = "<group>"; };
+		69029256B80641DCA25FD2A0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0F3019649AB4257A80A7693 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3556FF1215BFDB9200488F31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3556FF1A15BFDB9200488F31 /* UIKit.framework in Frameworks */,
+				3556FF1C15BFDB9200488F31 /* Foundation.framework in Frameworks */,
+				3556FF1E15BFDB9200488F31 /* CoreGraphics.framework in Frameworks */,
+				385A800C54344E2FAE89426A /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3556FF8615BFE01A00488F31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3556FF8715BFE01A00488F31 /* UIKit.framework in Frameworks */,
+				3556FF8815BFE01A00488F31 /* Foundation.framework in Frameworks */,
+				3556FF8915BFE01A00488F31 /* CoreGraphics.framework in Frameworks */,
+				3556FF8A15BFE01A00488F31 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3556FF0A15BFDB9200488F31 = {
+			isa = PBXGroup;
+			children = (
+				3556FF1F15BFDB9200488F31 /* GHUnitScreencast */,
+				3556FF6815BFDF3100488F31 /* UnitTests */,
+				3556FF1815BFDB9200488F31 /* Frameworks */,
+				3556FF1615BFDB9200488F31 /* Products */,
+				B0F3019649AB4257A80A7693 /* Pods.xcconfig */,
+				3556FF5615BFDE5200488F31 /* GHUnitScreencast copy-Info.plist */,
+				3556FF9415BFE01A00488F31 /* GHUnitScreencast copy-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		3556FF1615BFDB9200488F31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3556FF1515BFDB9200488F31 /* GHUnitScreencast.app */,
+				3556FF9215BFE01A00488F31 /* GHUnitScreencast copy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3556FF1815BFDB9200488F31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3556FF1915BFDB9200488F31 /* UIKit.framework */,
+				3556FF1B15BFDB9200488F31 /* Foundation.framework */,
+				3556FF1D15BFDB9200488F31 /* CoreGraphics.framework */,
+				69029256B80641DCA25FD2A0 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3556FF1F15BFDB9200488F31 /* GHUnitScreencast */ = {
+			isa = PBXGroup;
+			children = (
+				3556FF2815BFDB9200488F31 /* ILAppDelegate.h */,
+				3556FF2915BFDB9200488F31 /* ILAppDelegate.m */,
+				3556FF2B15BFDB9200488F31 /* MainStoryboard.storyboard */,
+				3556FF2E15BFDB9200488F31 /* ILViewController.h */,
+				3556FF2F15BFDB9200488F31 /* ILViewController.m */,
+				3556FF2015BFDB9200488F31 /* Supporting Files */,
+			);
+			path = GHUnitScreencast;
+			sourceTree = "<group>";
+		};
+		3556FF2015BFDB9200488F31 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3556FF2115BFDB9200488F31 /* GHUnitScreencast-Info.plist */,
+				3556FF2215BFDB9200488F31 /* InfoPlist.strings */,
+				3556FF2515BFDB9200488F31 /* main.m */,
+				3556FF2715BFDB9200488F31 /* GHUnitScreencast-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3556FF6815BFDF3100488F31 /* UnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				3556FF6915BFDF3100488F31 /* Supporting Files */,
+				35F6C96D15BFE0C900B940C0 /* ILSampleTestCase.h */,
+				35F6C96E15BFE0C900B940C0 /* ILSampleTestCase.m */,
+			);
+			path = UnitTests;
+			sourceTree = "<group>";
+		};
+		3556FF6915BFDF3100488F31 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3556FF6A15BFDF3100488F31 /* UnitTests-Info.plist */,
+				3556FF6B15BFDF3100488F31 /* InfoPlist.strings */,
+				3556FF6E15BFDF3100488F31 /* main.m */,
+				3556FF7015BFDF3100488F31 /* UnitTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3556FF1415BFDB9200488F31 /* GHUnitScreencast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3556FF3315BFDB9200488F31 /* Build configuration list for PBXNativeTarget "GHUnitScreencast" */;
+			buildPhases = (
+				3556FF1115BFDB9200488F31 /* Sources */,
+				3556FF1215BFDB9200488F31 /* Frameworks */,
+				3556FF1315BFDB9200488F31 /* Resources */,
+				E3B8546C8D7340F4A4688B21 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GHUnitScreencast;
+			productName = GHUnitScreencast;
+			productReference = 3556FF1515BFDB9200488F31 /* GHUnitScreencast.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3556FF8115BFE01A00488F31 /* UnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3556FF8F15BFE01A00488F31 /* Build configuration list for PBXNativeTarget "UnitTests" */;
+			buildPhases = (
+				3556FF8215BFE01A00488F31 /* Sources */,
+				3556FF8615BFE01A00488F31 /* Frameworks */,
+				3556FF8B15BFE01A00488F31 /* Resources */,
+				3556FF8E15BFE01A00488F31 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnitTests;
+			productName = GHUnitScreencast;
+			productReference = 3556FF9215BFE01A00488F31 /* GHUnitScreencast copy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3556FF0C15BFDB9200488F31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = IL;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = particulier;
+			};
+			buildConfigurationList = 3556FF0F15BFDB9200488F31 /* Build configuration list for PBXProject "GHUnitScreencast" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3556FF0A15BFDB9200488F31;
+			productRefGroup = 3556FF1615BFDB9200488F31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3556FF1415BFDB9200488F31 /* GHUnitScreencast */,
+				3556FF8115BFE01A00488F31 /* UnitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3556FF1315BFDB9200488F31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3556FF2415BFDB9200488F31 /* InfoPlist.strings in Resources */,
+				3556FF2D15BFDB9200488F31 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3556FF8B15BFE01A00488F31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3556FF8C15BFE01A00488F31 /* InfoPlist.strings in Resources */,
+				3556FF8D15BFE01A00488F31 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3556FF8E15BFE01A00488F31 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+		E3B8546C8D7340F4A4688B21 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3556FF1115BFDB9200488F31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3556FF2615BFDB9200488F31 /* main.m in Sources */,
+				3556FF2A15BFDB9200488F31 /* ILAppDelegate.m in Sources */,
+				3556FF3015BFDB9200488F31 /* ILViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3556FF8215BFE01A00488F31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35F6C96C15BFE08F00B940C0 /* main.m in Sources */,
+				3556FF8515BFE01A00488F31 /* ILViewController.m in Sources */,
+				35F6C96F15BFE0C900B940C0 /* ILSampleTestCase.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3556FF2215BFDB9200488F31 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3556FF2315BFDB9200488F31 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3556FF2B15BFDB9200488F31 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3556FF2C15BFDB9200488F31 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		3556FF6B15BFDF3100488F31 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3556FF6C15BFDF3100488F31 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3556FF3115BFDB9200488F31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3556FF3215BFDB9200488F31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3556FF3415BFDB9200488F31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0F3019649AB4257A80A7693 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GHUnitScreencast/GHUnitScreencast-Prefix.pch";
+				INFOPLIST_FILE = "GHUnitScreencast/GHUnitScreencast-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3556FF3515BFDB9200488F31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0F3019649AB4257A80A7693 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GHUnitScreencast/GHUnitScreencast-Prefix.pch";
+				INFOPLIST_FILE = "GHUnitScreencast/GHUnitScreencast-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3556FF9015BFE01A00488F31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0F3019649AB4257A80A7693 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GHUnitScreencast/GHUnitScreencast-Prefix.pch";
+				INFOPLIST_FILE = "GHUnitScreencast copy-Info.plist";
+				PRODUCT_NAME = "GHUnitScreencast copy";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3556FF9115BFE01A00488F31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0F3019649AB4257A80A7693 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GHUnitScreencast/GHUnitScreencast-Prefix.pch";
+				INFOPLIST_FILE = "GHUnitScreencast copy-Info.plist";
+				PRODUCT_NAME = "GHUnitScreencast copy";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3556FF0F15BFDB9200488F31 /* Build configuration list for PBXProject "GHUnitScreencast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3556FF3115BFDB9200488F31 /* Debug */,
+				3556FF3215BFDB9200488F31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3556FF3315BFDB9200488F31 /* Build configuration list for PBXNativeTarget "GHUnitScreencast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3556FF3415BFDB9200488F31 /* Debug */,
+				3556FF3515BFDB9200488F31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3556FF8F15BFE01A00488F31 /* Build configuration list for PBXNativeTarget "UnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3556FF9015BFE01A00488F31 /* Debug */,
+				3556FF9115BFE01A00488F31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3556FF0C15BFDB9200488F31 /* Project object */;
+}

@@ -1,0 +1,5 @@
+PODS:
+  - GHUnitIOS (0.4.33)
+
+DEPENDENCIES:
+  - GHUnitIOS (= 0.4.33)
