@@ -16,9 +16,9 @@
     GHAssertNotNil(string, @"On espere qu'il n'est pas nil");
 }
 
-- (void)testStringNil
+- (void)testNumber
 {
-    NSString* string = nil;
-    GHAssertNotNil(string, @"On espere qu'il n'est pas nil");
+    NSNumber* n = [NSNumber numberWithInt:3];
+    GHAssertEquals(3, [n integerValue],@"Ils doivent être égaux.");
 }
 @end
